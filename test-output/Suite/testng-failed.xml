@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]">
+  <test name="GoogleTest1(failed)">
+    <classes>
+      <class name="com.docker.tests.GoogleTest">
+        <methods>
+          <include name="googleTest2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.docker.tests.GoogleTest -->
+    </classes>
+  </test> <!-- GoogleTest1(failed) -->
+  <test name="GoogleTest2(failed)">
+    <classes>
+      <class name="com.docker.tests.GoogleTest">
+        <methods>
+          <include name="googleTest2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.docker.tests.GoogleTest -->
+    </classes>
+  </test> <!-- GoogleTest2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
