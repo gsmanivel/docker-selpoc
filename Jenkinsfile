@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Push Image') {
             steps { 
-		    bat "docker login --username=manivels1987 --password=Wecome2bsnl"
+		    bat "docker login --username=manivels1987 --password=Welcome2bsnl"
 		    bat "docker push manivels1987/cicc9:latest"                         
             	}
         }
