@@ -1,1 +1,0 @@
-docker inspect -f . maven:3-alpine

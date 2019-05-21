@@ -1,7 +1,0 @@
-Started by user [8mha:////4P6GIRHra7Mn+LWhy1PYYEtaCuFJpSw0xt8QheGJ42KEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Building on master in workspace /var/jenkins_home/workspace/Docker_test
-[Docker_test] $ /bin/sh -xe /tmp/jenkins7887199045764436527.sh
-+ docker ps
-/tmp/jenkins7887199045764436527.sh: 2: /tmp/jenkins7887199045764436527.sh: docker: not found
-Build step 'Execute shell' marked build as failure
-Finished: FAILURE
