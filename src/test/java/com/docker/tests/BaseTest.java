@@ -23,10 +23,10 @@ public class BaseTest {
 		String host = "localhost";
 		DesiredCapabilities dc;
 		
-		if (System.getProperty("BROWSER") != null && System.getProperty("BROWSER").equalsIgnoreCase("chrome")) {
+		if (System.getProperty("BROWSER") == null && System.getProperty("BROWSER").equalsIgnoreCase("chrome")) {
 			dc = DesiredCapabilities.chrome();
 		} else {
-			dc = DesiredCapabilities.firefox();
+			dc = DesiredCapabilities.chrome();
 
 		}
 

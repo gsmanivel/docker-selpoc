@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="195980" started-at="2019-05-21T05:17:43Z" finished-at="2019-05-21T05:20:59Z">
+    <groups>
+    </groups>
+    <test name="GoogleTest1" duration-ms="37436" started-at="2019-05-21T05:17:43Z" finished-at="2019-05-21T05:18:21Z">
+      <class name="com.docker.tests.GoogleTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="11024" started-at="2019-05-21T05:17:43Z" finished-at="2019-05-21T05:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d0f2471]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest1()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest1" duration-ms="2969" started-at="2019-05-21T05:17:54Z" finished-at="2019-05-21T05:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest1 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="3462" started-at="2019-05-21T05:17:57Z" finished-at="2019-05-21T05:18:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d0f2471]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest2()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest2" duration-ms="2623" started-at="2019-05-21T05:18:01Z" finished-at="2019-05-21T05:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest2 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="3532" started-at="2019-05-21T05:18:04Z" finished-at="2019-05-21T05:18:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d0f2471]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest3()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest3" duration-ms="2208" started-at="2019-05-21T05:18:07Z" finished-at="2019-05-21T05:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest3 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="2746" started-at="2019-05-21T05:18:09Z" finished-at="2019-05-21T05:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d0f2471]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest4()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest4" duration-ms="2552" started-at="2019-05-21T05:18:12Z" finished-at="2019-05-21T05:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest4 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="3875" started-at="2019-05-21T05:18:15Z" finished-at="2019-05-21T05:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d0f2471]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest5()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest5" duration-ms="2336" started-at="2019-05-21T05:18:18Z" finished-at="2019-05-21T05:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest5 -->
+      </class> <!-- com.docker.tests.GoogleTest -->
+    </test> <!-- GoogleTest1 -->
+    <test name="GoogleTest2" duration-ms="54203" started-at="2019-05-21T05:18:21Z" finished-at="2019-05-21T05:19:15Z">
+      <class name="com.docker.tests.GoogleTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@2f7c7260]" name="setUp" is-config="true" duration-ms="2843" started-at="2019-05-21T05:18:21Z" finished-at="2019-05-21T05:18:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7bd4937b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest1()[pri:0, instance:com.docker.tests.GoogleTest@2f7c7260]" name="googleTest1" duration-ms="2438" started-at="2019-05-21T05:18:24Z" finished-at="2019-05-21T05:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest1 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@2f7c7260]" name="setUp" is-config="true" duration-ms="2762" started-at="2019-05-21T05:18:26Z" finished-at="2019-05-21T05:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7bd4937b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest2()[pri:0, instance:com.docker.tests.GoogleTest@2f7c7260]" name="googleTest2" duration-ms="2516" started-at="2019-05-21T05:18:29Z" finished-at="2019-05-21T05:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest2 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@2f7c7260]" name="setUp" is-config="true" duration-ms="3257" started-at="2019-05-21T05:18:32Z" finished-at="2019-05-21T05:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7bd4937b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest3()[pri:0, instance:com.docker.tests.GoogleTest@2f7c7260]" name="googleTest3" duration-ms="4490" started-at="2019-05-21T05:18:35Z" finished-at="2019-05-21T05:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest3 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@2f7c7260]" name="setUp" is-config="true" duration-ms="4622" started-at="2019-05-21T05:18:39Z" finished-at="2019-05-21T05:18:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7bd4937b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest4()[pri:0, instance:com.docker.tests.GoogleTest@2f7c7260]" name="googleTest4" duration-ms="7877" started-at="2019-05-21T05:18:44Z" finished-at="2019-05-21T05:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest4 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@2f7c7260]" name="setUp" is-config="true" duration-ms="4033" started-at="2019-05-21T05:18:52Z" finished-at="2019-05-21T05:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7bd4937b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest5()[pri:0, instance:com.docker.tests.GoogleTest@2f7c7260]" name="googleTest5" duration-ms="19295" started-at="2019-05-21T05:18:56Z" finished-at="2019-05-21T05:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest5 -->
+      </class> <!-- com.docker.tests.GoogleTest -->
+    </test> <!-- GoogleTest2 -->
+    <test name="GoogleTest3" duration-ms="103942" started-at="2019-05-21T05:19:15Z" finished-at="2019-05-21T05:20:59Z">
+      <class name="com.docker.tests.GoogleTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@1cd072a9]" name="setUp" is-config="true" duration-ms="5812" started-at="2019-05-21T05:19:15Z" finished-at="2019-05-21T05:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1de76cc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest1()[pri:0, instance:com.docker.tests.GoogleTest@1cd072a9]" name="googleTest1" duration-ms="33015" started-at="2019-05-21T05:19:21Z" finished-at="2019-05-21T05:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest1 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@1cd072a9]" name="setUp" is-config="true" duration-ms="5948" started-at="2019-05-21T05:19:54Z" finished-at="2019-05-21T05:20:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1de76cc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest2()[pri:0, instance:com.docker.tests.GoogleTest@1cd072a9]" name="googleTest2" duration-ms="27221" started-at="2019-05-21T05:20:00Z" finished-at="2019-05-21T05:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest2 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@1cd072a9]" name="setUp" is-config="true" duration-ms="3151" started-at="2019-05-21T05:20:27Z" finished-at="2019-05-21T05:20:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1de76cc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest3()[pri:0, instance:com.docker.tests.GoogleTest@1cd072a9]" name="googleTest3" duration-ms="5591" started-at="2019-05-21T05:20:31Z" finished-at="2019-05-21T05:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest3 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@1cd072a9]" name="setUp" is-config="true" duration-ms="4005" started-at="2019-05-21T05:20:36Z" finished-at="2019-05-21T05:20:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1de76cc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest4()[pri:0, instance:com.docker.tests.GoogleTest@1cd072a9]" name="googleTest4" duration-ms="5807" started-at="2019-05-21T05:20:40Z" finished-at="2019-05-21T05:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest4 -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@1cd072a9]" name="setUp" is-config="true" duration-ms="3679" started-at="2019-05-21T05:20:46Z" finished-at="2019-05-21T05:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1de76cc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest5()[pri:0, instance:com.docker.tests.GoogleTest@1cd072a9]" name="googleTest5" duration-ms="9658" started-at="2019-05-21T05:20:50Z" finished-at="2019-05-21T05:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest5 -->
+      </class> <!-- com.docker.tests.GoogleTest -->
+    </test> <!-- GoogleTest3 -->
+  </suite> <!-- Suite -->
+</testng-results>

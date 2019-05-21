@@ -23,7 +23,7 @@ services:
      - chrome
      - firefox     
     environment:
-     - HUB_HOST= hub
-     - Module = testng.xml
+     - HUB_HOST=hub
+     - MODULE=testng.xml
     volumes:
     - ./ExtentReports:/usr/share/manman/test-output
