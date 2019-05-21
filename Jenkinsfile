@@ -15,13 +15,10 @@ pipeline {
             }
         }
         stage('Push Image') {
-            steps {
-			    withCredentials([usernamePassword(credentialsId: 'dockerhubaccount', passwordVariable: 'Ohmygod@123', usernameVariable: 'manivels1987')]) {
-                    //sh
-			        bat "docker login --username=${manivels1987} --password=${Ohmygod@123}"
-			        bat "docker push manivels1987/cicc9:latest"
-			    }                           
-            }
+            steps { 
+		    bat "docker login --username=manivels1987 --password=Ohmygod@123"
+		    bat "docker push manivels1987/cicc9:latest"                         
+            	}
         }
     }
 }
