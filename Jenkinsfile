@@ -11,7 +11,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 //sh
-                bat "docker build -t='manivels1987/dockerpoc' ."
+                bat "docker build -t=manivels1987/dockerpoc ."
             }
         }
         stage('Push Image') {
