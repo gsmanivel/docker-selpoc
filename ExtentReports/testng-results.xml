@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34829" started-at="2019-05-22T13:27:58Z" finished-at="2019-05-22T13:28:33Z">
+  <suite name="Suite" duration-ms="32370" started-at="2019-05-23T10:25:02Z" finished-at="2019-05-23T10:25:35Z">
     <groups>
     </groups>
-    <test name="GoogleTests" duration-ms="34829" started-at="2019-05-22T13:27:58Z" finished-at="2019-05-22T13:28:33Z">
+    <test name="GoogleTests" duration-ms="32370" started-at="2019-05-23T10:25:02Z" finished-at="2019-05-23T10:25:35Z">
       <class name="com.docker.tests.GoogleTest">
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="10652" started-at="2019-05-22T13:27:58Z" finished-at="2019-05-22T13:28:09Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="11219" started-at="2019-05-23T10:25:02Z" finished-at="2019-05-23T10:25:14Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleTest1()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest1" duration-ms="2754" started-at="2019-05-22T13:28:09Z" finished-at="2019-05-22T13:28:11Z">
+        <test-method status="PASS" signature="googleTest1()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest1" duration-ms="3439" started-at="2019-05-23T10:25:14Z" finished-at="2019-05-23T10:25:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest1 -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="3114" started-at="2019-05-22T13:28:11Z" finished-at="2019-05-22T13:28:14Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="2418" started-at="2019-05-23T10:25:17Z" finished-at="2019-05-23T10:25:20Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleTest2()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest2" duration-ms="2605" started-at="2019-05-22T13:28:14Z" finished-at="2019-05-22T13:28:17Z">
+        <test-method status="PASS" signature="googleTest2()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest2" duration-ms="3016" started-at="2019-05-23T10:25:20Z" finished-at="2019-05-23T10:25:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest2 -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="2673" started-at="2019-05-22T13:28:17Z" finished-at="2019-05-22T13:28:20Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="2017" started-at="2019-05-23T10:25:23Z" finished-at="2019-05-23T10:25:25Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleTest3()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest3" duration-ms="2586" started-at="2019-05-22T13:28:20Z" finished-at="2019-05-22T13:28:22Z">
+        <test-method status="PASS" signature="googleTest3()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest3" duration-ms="2610" started-at="2019-05-23T10:25:25Z" finished-at="2019-05-23T10:25:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest3 -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="2605" started-at="2019-05-22T13:28:22Z" finished-at="2019-05-22T13:28:25Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="1725" started-at="2019-05-23T10:25:27Z" finished-at="2019-05-23T10:25:29Z">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleTest4()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest4" duration-ms="2647" started-at="2019-05-22T13:28:25Z" finished-at="2019-05-22T13:28:28Z">
+        <test-method status="PASS" signature="googleTest4()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest4" duration-ms="2370" started-at="2019-05-23T10:25:29Z" finished-at="2019-05-23T10:25:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest4 -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="2946" started-at="2019-05-22T13:28:28Z" finished-at="2019-05-22T13:28:30Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="setUp" is-config="true" duration-ms="1407" started-at="2019-05-23T10:25:31Z" finished-at="2019-05-23T10:25:33Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleTest5()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest5" duration-ms="2169" started-at="2019-05-22T13:28:30Z" finished-at="2019-05-22T13:28:33Z">
+        <test-method status="PASS" signature="googleTest5()[pri:0, instance:com.docker.tests.GoogleTest@3c5a99da]" name="googleTest5" duration-ms="2053" started-at="2019-05-23T10:25:33Z" finished-at="2019-05-23T10:25:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest5 -->
