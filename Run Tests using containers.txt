@@ -1,0 +1,111 @@
+Run test using container:
+-------------------------------------
+Step 1:
+	Complete the project set up
+Step 2:
+	install maven in local machine
+	run command $ mvn clean package -DskipTests
+	Example --> C:\Users\N0359906\eclipse-workspace\java_Projects\ci_claimcenter_gw9_automation>mvn clean package -DskipTests
+
+Step 3:
+	Navigate to target folder
+	Create image (refer the docker file in proj directory)
+
+Step 4:
+	build image
+	docker build -t=manivels1987/****ImageName*** .
+	verify the image using  - $ docker images
+	
+--------------------------------------------------------------------------
+
+Step 5: 	Run  docker image
+project directory--> 
+docker run -it --entrypoint=/bin/sh -v  C:\Users\N0359906\eclipse-workspace\java_Projects\Selenium_Docker_poc/docout:/usr/share/manman/test-output manivels1987/dockerpoc
+
+Volume Mapping:
+docker run -it --entrypoint=/bin/sh -v  C:\Users\N0359906\eclipse-workspace\java_Projects\ci_claimcenter_gw9_automation/recordings:/usr/share/manman/recordings -v  C:\Users\N0359906\eclipse-workspace\java_Projects\ci_claimcenter_gw9_automation/ExtentReports:/usr/share/manman/ExtentReports manivels1987/cicc9
+
+--------------------------------------------------------------------------
+
+Step 6:
+	Execute test cases. Now the control will be in linux machine. 
+	/usr/share/manman # java -cp selenium-docker-tests.jar:selenium-docker.jar:libs/*:src/* org.testng.TestNG ./src/main/resources/SuiteFiles/NewSmoke.xml
+
+--------------------------------------------------------------------------	
+
+Step 7:
+	System will throw unreachable browser exception. because, local host:4444 will try to reach local host (linux) which will not work. 
+	now use host machine ip and execute the test.
+	
+	Example : /usr/share/manman # 	java -cp selenium-docker-tests.jar:selenium-docker.jar:libs/*:src/* -DHUB_HOST=172.22.130.113 org.testng.TestNG src/main/resources/SuiteFiles/NewSmoke.xml
+	  
+--------------------------------------------------------------------------	
+
+Step 8: Running the test directly (not going inside linux machine)
+
+C:\Users\N0359906\eclipse-workspace\java_Projects\ci_claimcenter_gw9_automation>docker run -e HUB_HOST=172.22.130.113 -e Module=./src/main/resources/SuiteFiles/NewSmoke.xml -v  C:\Users\N0359906\eclipse-workspace\java_Projects\ci_claimcenter_gw9_automation\ExtentReports:/usr/share/manman/ExtentReports manivels1987/cicc9
+
+--------------------------------------------------------------------------	
+Step  9: No pool issue
+http://172.22.130.113:4444/wd/hub/status
+
+{
+  "status": 0,
+  "value": {
+    "ready": true,
+    "message": "Hub has capacity",
+    "build": {
+      "revision": "aacccce0",
+      "time": "2018-08-02T20:13:22.693Z",
+      "version": "3.14.0"
+    },
+    "os": {
+      "arch": "amd64",
+      "name": "Linux",
+      "version": "4.9.13-moby"
+    },
+    "java": {
+      "version": "1.8.0_181"
+    }
+  }
+}
+
+Solution: 
+docker run openjdk:8u191-jre-alpine3.8
+apk add curl jq
+then make sure that selenium grid is up and running. and check  :curl -s http://$HUB_HOST:4444/wd/hub/status | jq -r .value.ready
+--------------------------------------------------------------------------	
+
+Step 10:
+Add healthcheck.sh script in project, modify the docker-compose file and run it
+
+--------------------------------------------------------------------------
+
+Step 11:  Jenkins
+-----------------
+
+pull the below images:
+----------------------
+	docker pull jenkins/jenkins:lts
+	docker pull maven:3-alpine3
+
+Run Jenkins:
+------------
+
+docker run -p 8080:8080 -p 50000:50000 -v C:\Users\N0359906\eclipse-workspace\java_Projects\Jenkins\jenkins:/var/jenkins_home jenkins/jenkins:lts
+
+Click Builder executor service
+add an Agent
+Set Master as 0
+Connect Agent with Master using the below command
+Run Agent:
+C:\Users\N0359906\Downloads>java -jar agent.jar -jnlpUrl http://localhost:8080/computer/Node1/slave-agent.jnlp -secret 2491fb71d7b20f2e8e6d501d051251bb6cf2fa4c41cbbe4f757b3cfad9dd6217 -workDir C:\Users\N0359906\eclipse-workspace\java_Projects\Jenkins\jenkinsnodes
+
+Build the project:
+
+Create a repository (Git)
+create a jenkins file and add the pipeline jobs
+create a project in jenkins and build it
+Now jekins will fetch the project from git and build , create image and push it to dockerhub
+----------------------------------------------------------------------------------------------------------------------------------------------------
+

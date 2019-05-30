@@ -1,0 +1,3 @@
+Jenkins
+
+docker run -p 8080:8080 -v C:\Users\N0359906\eclipse-workspace\java_Projects\docker-selpoc:/var/jenkins_home jenkins/jenkins:lts

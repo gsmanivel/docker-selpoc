@@ -1,0 +1,48 @@
+Scalable docker grid:
+
+create a docker-compose.yaml file 
+open cmd and navigate to the folder where docker-compose file is located
+run the command  -$: docker-compose up
+Open a browser and hit - http://localhost:4444
+Grid hub and node should be configured.
+
+scale up a node on demand:
+$>docker-compose scale chrome=4
+
+scale down a node on demand:
+$>docker-compose scale chrome=2
+
+
+How does Grid works in docker 
+
+each container will have unique name
+and node is having environment property where we will pass the hub name
+HUB exposes it in port 4444 which is being mapped to host machines any port number using port mapping
+
+
+How to use Grid:
+
+Method 1: Have the project in eclipse and access localhost:8080 to run the tests
+Method 2: 
+compile and package the project using maven using the command  'mvn clean package -DskipTests
+Run the test using command prompt:
+C:\Users\N0359906\eclipse-workspace\java_Projects\ci_claimcenter_gw9_automation\target>java -cp selenium-docker-tests.jar;selenium-docker.jar;libs/*;
+C:/Users/N0359906/eclipse-workspace/java_Projects/ci_claimcenter_gw9_automation/src/*  org.testng.TestNG ../src/main/resources/SuiteFiles/NewSmoke.xml
+
+
+Zalenium:
+https://opensource.zalando.com/zalenium/
+
+# Pull docker-selenium
+    docker pull elgalu/selenium
+    
+    # Pull Zalenium
+    docker pull dosel/zalenium
+    
+    # Run it!
+    docker run --rm -ti --name zalenium -p 4444:4444 -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/videos:/home/seluser/videos --privileged dosel/zalenium start
+      
+    # Point your tests to http://localhost:4444/wd/hub and run them
+
+    # Stop
+    docker stop zalenium
